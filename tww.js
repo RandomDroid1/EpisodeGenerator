@@ -1,4 +1,3 @@
-
 episode = 0
 var text = document.getElementById("text");  // This establishes the variable for the text
 var generator = document.getElementById("generator"); // This establishes the variable for the Generator Button
