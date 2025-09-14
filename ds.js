@@ -5,9 +5,15 @@ if (generator) {generator.addEventListener("click", getRandomInt);} // Makes sur
 if (generator) {generator.addEventListener("click", displayText);}
 
   function getRandomInt() {
-  season = Math.floor(Math.random() * (1-1)+1); // selects the season number // kept like this for when the next season releases, easy updating
+  season = Math.floor(Math.random() * (4-1)+1); // selects the season number
   if (season == 1) {
-    episode = Math.floor(Math.random() * (9-1)+1); // selects the episode number if season one
+    episode = Math.floor(Math.random() * (22-1)+1); // selects the episode number if season one
+  }
+  if (season == 2) {
+    episode = Math.floor(Math.random() * (23-1)+1); // selects the episode number if season two
+  }
+  if (season == 3) {
+    episode = Math.floor(Math.random() * (11-1)+1); // selects the episode number if season third
   }
 }
 
