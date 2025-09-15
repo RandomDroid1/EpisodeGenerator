@@ -1,3 +1,10 @@
+// Redirects to mobile site
+var w = window.innerWidth;
+if (w < 1000) {
+  window.location.href = 'ds.html'; // thank you stack overflow fr
+}
+// Variable stuff!!!!!!!
+
 episode = 0
 var text = document.getElementById("text");  // This establishes the variable for the text
 var generator = document.getElementById("generator"); // This establishes the variable for the Generator Button

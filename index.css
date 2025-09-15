@@ -7,11 +7,45 @@ html, body {
         margin: 0;
         padding: 0;
         }
-#tww {
-    width: 10%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    background-image: url("twwButton.png");
-    background-position: center;
-    background-size: cover;
+a {
+    margin: 1%;
+        height: 5%;
 }
+
+#twwimg {
+    width: 10%;
+    height: 10%;
+
+}
+
+
+#tnrimg {
+    width: 9%;
+    height: 10%;
+}
+
+#msimg {
+    width: 10%;
+    height: 10%;    
+}
+
+#dsimg {
+    width:10%;
+    height: 10%;
+}
+
+#parimg {
+    width:10%;
+    height: 10%;    
+}
+
+#taimg {
+    width:10%;
+    height: 10%;
+}
+
+#sevimg {
+    width:13%;
+    height: 10%;    
+}
+
