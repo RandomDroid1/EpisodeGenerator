@@ -1,9 +1,9 @@
 // Redirects to mobile site
 var w = window.innerWidth;
-if (w < 1000) {
-  window.location.href = 'indexm.html'; // thank you stack overflow fr. So cool though
+if (w > 1000) {
+  window.location.href = 'index.html'; // thank you stack overflow fr. So cool though
 }
-// Variable stuff!!!!!!!
+// Variable stuff!!!!!!! All same as normal index, its that stupidddd top partttt
 
 episode = 0
 var text = document.getElementById("text");  // This establishes the variable for the text
