@@ -1,8 +1,5 @@
 // Redirects to mobile site
 var w = window.innerWidth;
-if (w < 1000) {
-  window.location.href = 'indexm.html'; // thank you stack overflow fr. So cool though
-}
 // Variable stuff!!!!!!!
 
 episode = 0
@@ -12,7 +9,8 @@ if (generator) {generator.addEventListener("click", getRandomInt);} // Makes sur
 if (generator) {generator.addEventListener("click", displayText);}
 
   function getRandomInt() {
-  show = Math.floor(Math.random() * (8-1)+1);
+  show = Math.floor(Math.random() * (9-1)+1);
+  console.log(show);
     if (show == 1) { // The West Wing
       show = "The West Wing: "
       season = Math.floor(Math.random() * (8-1)+1); // selects the season number
@@ -96,7 +94,7 @@ if (generator) {generator.addEventListener("click", displayText);}
     }
 
     if (show == 6) { // Madam Secretary
-      show = "Madam Secretary (if you can find somewhere to watch it): "
+      show = "Madam Secretary (if you can find somewhere to watch it): ";
       season = Math.floor(Math.random() * (7-1)+1); // selects the season number
         if (season == 1) {
           episode = Math.floor(Math.random() * (23-1)+1); // selects the episode number if season one 
@@ -118,7 +116,7 @@ if (generator) {generator.addEventListener("click", displayText);}
         }
     }
     if (show == 7) { // Designated Survivor
-      show = "Designated Survivor: "
+      show = "Designated Survivor: ";
       season = Math.floor(Math.random() * (4-1)+1); // selects the season number
         if (season == 1) {
           episode = Math.floor(Math.random() * (22-1)+1); // selects the episode number if season one
@@ -128,6 +126,22 @@ if (generator) {generator.addEventListener("click", displayText);}
         }
         if (season == 3) {
           episode = Math.floor(Math.random() * (11-1)+1); // selects the episode number if season third
+        }
+    }
+    if (show == 8) {
+         show = "For All Mankind: ";
+      season = Math.floor(Math.random() * (5-1)+1); // selects the season number
+        if (season == 1) {
+          episode = Math.floor(Math.random() * (11-1)+1); // selects the episode number if season one
+        }
+        if (season == 2) {
+          episode = Math.floor(Math.random() * (11-1)+1); // selects the episode number if season two
+        }
+        if (season == 3) {
+          episode = Math.floor(Math.random() * (11-1)+1); // selects the episode number if season third
+        }
+        if (season == 4) {
+          episode = Math.floor(Math.random() * (11-1)+1); // selects the episode number if season four
         }
     }
 }
