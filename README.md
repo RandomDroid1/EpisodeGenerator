@@ -3,3 +3,4 @@ was pretty challenging for me because I haven't done much work with Javascript b
 
 This project is mostly a personal project because the array of shows it uses are pretty specific to shows I just like. You can generate a show from any of the shows, or click on one of the images of the show to go and generate episodes for that one specifically.
 Very simple stuff, just took a while because I am new and a little bit silly
+I learned a pretty decent amount of stuff using Javascript, and am now able to generate a random number and use if statements, as well as learn more difficult stuff
