@@ -1,5 +1,5 @@
-Hello! This is my third and (not-so) final project for the Athena Awards. This project was made as a relatively quick thing to expand my knowledge of javascript before I move to my longer-term project of making a visual novel with Ren.Py. This website
-was pretty challenging for me because I haven't done much work with Javascript before. However I learned a lot, and am ready for the future (damn I sound like a politician or something, I can sell this)
+Hello! This is my third and (not-so) final project for the Athena Awards. This project was made to complete my HTML, CSS, Javascript website trio I have going on (my first website was mostly html, my second mostly css, and my third mostly javascript), and to do this before I go and make a visual novel with Ren.PY or somthing. 
+This website was pretty challenging for me because I haven't done much work with Javascript before. However I learned a lot, through a lot of trial and error + google/
 
 This project is mostly a personal project because the array of shows it uses are pretty specific to shows I just like. You can generate a show from any of the shows, or click on one of the images of the show to go and generate episodes for that one specifically.
 Very simple stuff, just took a while because I am new and a little bit silly
