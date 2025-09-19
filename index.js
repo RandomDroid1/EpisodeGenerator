@@ -1,6 +1,4 @@
-// Redirects to mobile site
-var w = window.innerWidth;
-// Variable stuff!!!!!!!
+
 
 episode = 0
 var text = document.getElementById("text");  // This establishes the variable for the text
